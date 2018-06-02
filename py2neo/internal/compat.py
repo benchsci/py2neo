@@ -42,7 +42,7 @@ try:
     from subprocess import DEVNULL
 except ImportError:
     from os import devnull
-    DEVNULL = open(devnull, "rw")
+    # DEVNULL = open(devnull, "rw")
 
 from io import StringIO
 import os
