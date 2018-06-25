@@ -1,6 +1,6 @@
 click>=2.0
 colorama
-neo4j-driver>=1.6.0
+git+https://github.com/benchsci/neo4j-python-driver.git
 prompt_toolkit
 pygments>=2.0
 pytest
